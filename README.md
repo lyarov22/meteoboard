@@ -11,9 +11,9 @@
 5. Run page!
 
 ### Todo:
-~~make a design in figma~~
-~~Create an html page based on the design~~
-~~add integration with openweathermap (weather data)~~
-~~add integration with the wagi api (data api)~~
-add integration with the narodmon api (meteo sensors data)
-english supports
+* ~~make a design in figma~~
+* ~~Create an html page based on the design~~
+* ~~add integration with openweathermap (weather data)~~
+* ~~add integration with the wagi api (data api)~~
+* add integration with the narodmon api (meteo sensors data)
+* english supports
