@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Прогноз погоды</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .weather-section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="current-weather" class="weather-section">
+        <h2>Текущая погода</h2>
+        <p id="temp">Температура: </p>
+        <p id="humidity">Влажность: </p>
+        <p id="time">Время запроса: </p>
+        <p id="sunrise">Восход: </p>
+        <p id="sunset">Закат: </p>
+        <p id="wind-speed">Скорость ветра: </p>
+        <p id="wind-deg">Направление ветра: </p>
+        <p id="weather-description">Состояние погоды: </p>
+        <p id="uvi">UV индекс: </p>
+    </div>
+    <div id="hourly-weather" class="weather-section">
+        <h2>Почасовая погода (на 7 часов вперед)</h2>
+    </div>
+    <div id="daily-weather" class="weather-section">
+        <h2>Прогноз на неделю</h2>
+    </div>
+
+    <script src="js/api.js"></script>
+</body>
+</html>
