@@ -4,8 +4,8 @@ const lon = 76.95;
 const apiKey = 'd3af57dad31e71d00ca10d9816e1fa9b';
 const airApiKey = '2722587e6b20d2867c7951e25b079e467f18a370';
 
-const url = `http://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&exclude=minutely,alerts&appid=${apiKey}&lang=ru&units=metric`;
-const airPollutionUrl = `http://api.waqi.info/feed/almaty?token=${airApiKey}`
+const url = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&exclude=minutely,alerts&appid=${apiKey}&lang=ru&units=metric`;
+const airPollutionUrl = `https://api.waqi.info/feed/almaty?token=${airApiKey}`
 
 function getWeatherIconUrl(weatherIconId) {
     return `https://openweathermap.org/img/wn/${weatherIconId}@4x.png`;
